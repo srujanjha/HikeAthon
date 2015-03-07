@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Files><file>\Hikeathon.exe</file><file>\Lumia.Internal.HMBClient.winmd</file><file>\Lumia.Sense.Testing.winmd</file><file>\Lumia.Sense.winmd</file></Files>

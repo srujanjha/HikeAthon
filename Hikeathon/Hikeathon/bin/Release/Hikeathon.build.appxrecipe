@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SRUJAN</Machine>
+    <WindowsUser>Srujan</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>cb7a8fcb-7958-4888-bf31-caccfd240c95</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\bin\Release\Hikeathon.exe">
+      <PackagePath>Hikeathon.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\packages\Facebook.Client.0.9.1-alpha\lib\portable-win81+wpa81\Facebook.Client.dll">
+      <PackagePath>Facebook.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\packages\Facebook.7.0.0-alpha\lib\portable-win81+wpa81\Facebook.dll">
+      <PackagePath>Facebook.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\bin\Release\Hikeathon.xr.xml">
+      <PackagePath>Hikeathon.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\packages\Facebook.Client.0.9.1-alpha\lib\portable-win81+wpa81\Facebook.Client\Facebook.Client.xr.xml">
+      <PackagePath>Facebook.Client\Facebook.Client.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\packages\Facebook.Client.0.9.1-alpha\lib\portable-win81+wpa81\Facebook.Client\FacebookDialogPage.xbf">
+      <PackagePath>Facebook.Client\FacebookDialogPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\packages\Facebook.Client.0.9.1-alpha\lib\portable-win81+wpa81\Facebook.Client\Controls\FriendPicker\FriendPicker.xbf">
+      <PackagePath>Facebook.Client\Controls\FriendPicker\FriendPicker.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\packages\Facebook.Client.0.9.1-alpha\lib\portable-win81+wpa81\Facebook.Client\Controls\LoginButton\LoginButton.xbf">
+      <PackagePath>Facebook.Client\Controls\LoginButton\LoginButton.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\packages\Facebook.Client.0.9.1-alpha\lib\portable-win81+wpa81\Facebook.Client\Controls\PlacePicker\PlacePicker.xbf">
+      <PackagePath>Facebook.Client\Controls\PlacePicker\PlacePicker.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\packages\Facebook.Client.0.9.1-alpha\lib\portable-win81+wpa81\Facebook.Client\Controls\ProfilePicture\ProfilePicture.xbf">
+      <PackagePath>Facebook.Client\Controls\ProfilePicture\ProfilePicture.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\packages\Facebook.Client.0.9.1-alpha\lib\portable-win81+wpa81\Facebook.Client\Images\fb_blank_place_profile_square.png">
+      <PackagePath>Facebook.Client\Images\fb_blank_place_profile_square.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\packages\Facebook.Client.0.9.1-alpha\lib\portable-win81+wpa81\Facebook.Client\Images\fb_blank_profile_portrait.png">
+      <PackagePath>Facebook.Client\Images\fb_blank_profile_portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\packages\Facebook.Client.0.9.1-alpha\lib\portable-win81+wpa81\Facebook.Client\Images\fb_blank_profile_square.png">
+      <PackagePath>Facebook.Client\Images\fb_blank_profile_square.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\packages\Facebook.Client.0.9.1-alpha\lib\portable-win81+wpa81\Facebook.Client\Themes\Generic.xbf">
+      <PackagePath>Facebook.Client\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\srujan\documents\visual studio 2015\Projects\Hikeathon\Hikeathon\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

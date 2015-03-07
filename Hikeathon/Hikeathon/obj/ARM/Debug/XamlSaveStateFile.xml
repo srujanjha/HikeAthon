@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\srujan\documents\visual studio 2015\projects\hikeathon\hikeathon\obj\arm\debug\intermediatexaml\hikeathon.exe" HashGuid="cd5619f8-3b94-da38-8e36-2d5424539521" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\srujan\documents\visual studio 2015\projects\hikeathon\packages\lumiasensorcoresdktesting.1.0.3.263\lib\portable-wpa81+wp81\arm\lumia.sense.testing.winmd" HashGuid="5231135f-a828-8acc-7787-4557c52cd338" />
+    <ReferenceAssembly PathName="c:\users\srujan\documents\visual studio 2015\projects\hikeathon\packages\lumiasensorcoresdk.1.0.3.263\lib\portable-wpa81+wp81\arm\lumia.sense.winmd" HashGuid="7855ac04-e2ac-8405-c1d1-1e2656f5cf70" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Hikeathon.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Hikeathon"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="using:Facebook.Client.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel x:Name="Login">
+            <Controls:LoginButton x:ConnectionId='1'
+                 x:Name="btn"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center" ApplicationId="413037865516033" Permissions="user_location, user_birthday, user_likes"                                            
+                />
+             </StackPanel>
+        <TextBlock 
+    x:Name="userInfo"
+    Width="400"
+    VerticalAlignment="Top"
+    HorizontalAlignment="Center"
+    Margin="0,90,0,0"
+    TextWrapping="Wrap"
+    Text=""
+    FontSize="20"
+    Visibility="Collapsed" />
+    </Grid>
+</Page>
+

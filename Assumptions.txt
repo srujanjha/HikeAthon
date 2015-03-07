@@ -1,0 +1,33 @@
+The application is made for Windows Phone 8.1 platform.
+APIs used:
+1. Web Authentication Broker API of WP 8.1 for Social Facebook Graph search API, as there is NO native Facebook SDK for Windows Phone 8.1 yet. The Graph API is the primary way to get data in and out of Facebook's social graph. It's a low-level HTTP-based API that you can use to query data, post new stories, upload photos and a variety of other tasks that an app might need to do. This guide will teach you how to accomplish all these things in the Graph API.
+Assumptions: 
+>Internet Connectivity
+>Facebook account.
+
+2. SensorCode SDK by Nokia-Lumia Labs, Microsoft
+Lumia SensorCore SDK is a collection of APIs utilising data from different sensors (for example, accelerometer) and also location information. This information can be used to track user’s physical activities and motion. The sensors are able to run constantly in the background, collecting and preserving data for up to past ten days. Even though they are constantly active, the sensors run in a low power mode, consuming only a negligible amount of battery. Since the sensors may provide access to user’s private data, data privacy is a critical part of the design. User has always the option of disabling SensorCore SDK sensors and clearing any collected data.
+
+2.a: Activity Monitor API provides information about changes in user’s physical activity; for example, when user starts or stops walking. In order to filter out noise there is always a small delay associated with detecting changes in user’s activity. A typical delay is about 5-10 seconds. Activity information is most accurate when the device follows user’s movement closely, such as when the device is in user’s pocket. There are some challenging cases for Activity Monitor, such as when the user is in a vehicle that is generating strong vibrations.
+Activities are classified as follows:
+    >Idle (the phone is laying still, for example, on a table).
+    >Stationary (the phone is being handled / is in active use but the user is not moving around, or there is only some minor movement while the phone is, for example, in the user’s pocket).
+    >Walking (the user is walking with the phone).
+    >Running (the user is running with the phone).
+    >Moving (the user is moving but Activity Monitor cannot identify the exact type of motion).
+Activity Monitor is able to detect walking and running. If user is moving in such a way that Activity Monitor is unable to classify the movement as either walking or running, it will classify it as moving.
+Activity Monitor API provides real time information, foreground change notifications, and a ten day history of activity changes.
+
+2.b:The Place Monitor API provides a collection of places where the user has spent time: be it jogging, working, shopping, enjoying a coffee, or being stuck in a traffic jam. The Place Monitor API provides geo-coordinates of places the user visits; including ‘home’ and ‘work’.
+Place Monitor API is designed to provide this data with minimum battery consumption and it works passively in the background. This means that the logic behind the API is not actively using GPS to find the location of the device, instead it uses mainly cell towers and Wi-Fi hotspots to acquire location information. Because the Place Monitor is a passive information collector by nature, it will not provide real-time data or real-time location information. For real-time tracking scenarios, apps should employ GPS tracker or set geo-fences around the places which are recognised by the Place Monitor.
+Place Monitor API is able to recognize the following types of places:
+    >Known
+    >Frequent
+    >Home
+    >Work
+
+Assumptions:
+>The Lumia SensorCore SDK is available for Lumia 630, Lumia 635, Lumia 730, Lumia 735, Lumia 830, Lumia 930, Lumia 1520 and Lumia Icon, running on Windows Phone 8.1 with Lumia Cyan or Denim firmware.
+>Location(GPS) Enabled
+
+3. Battery and Network Status using native SDK of Windows Phone 8.1 SDK.

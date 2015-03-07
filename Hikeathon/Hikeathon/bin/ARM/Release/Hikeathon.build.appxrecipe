@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SRUJAN</Machine>
+    <WindowsUser>Srujan</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>bb182a2e-8033-4ad3-b00f-544541ebbdd8</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\obj\ARM\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\bin\ARM\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\bin\ARM\Release\Hikeathon.exe">
+      <PackagePath>Hikeathon.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\packages\LumiaSensorCoreSDKTesting.1.0.3.263\build\wpa81\\..\..\lib\portable-wpa81+wp81\ARM\Lumia.Sense.Testing.winmd">
+      <PackagePath>Lumia.Sense.Testing.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\packages\LumiaSensorCoreSDK.1.0.3.263\build\wpa81\\..\..\lib\portable-wpa81+wp81\ARM\Lumia.Sense.winmd">
+      <PackagePath>Lumia.Sense.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\packages\LumiaSensorCoreSDK.1.0.3.263\build\wpa81\..\..\lib\portable-wpa81+wp81\ARM\Lumia.Internal.HMBClient.winmd">
+      <PackagePath>Lumia.Internal.HMBClient.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\packages\LumiaSensorCoreSDK.1.0.3.263\build\wpa81\..\..\lib\portable-wpa81+wp81\ARM\Lumia.Sense.dll">
+      <PackagePath>Lumia.Sense.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\packages\LumiaSensorCoreSDKTesting.1.0.3.263\build\wpa81\..\..\lib\portable-wpa81+wp81\ARM\Lumia.Sense.Testing.dll">
+      <PackagePath>Lumia.Sense.Testing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\packages\LumiaSensorCoreSDK.1.0.3.263\build\wpa81\..\..\lib\portable-wpa81+wp81\ARM\Lumia.Internal.HMBClient.dll">
+      <PackagePath>Lumia.Internal.HMBClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\Activities\idle.png">
+      <PackagePath>Assets\Activities\idle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\Activities\moving.png">
+      <PackagePath>Assets\Activities\moving.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\Activities\running.png">
+      <PackagePath>Assets\Activities\running.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\Activities\stationary.png">
+      <PackagePath>Assets\Activities\stationary.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\Activities\walking.png">
+      <PackagePath>Assets\Activities\walking.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\back.png">
+      <PackagePath>Assets\back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\next.png">
+      <PackagePath>Assets\next.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\refresh.png">
+      <PackagePath>Assets\refresh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\show-current-location.png">
+      <PackagePath>Assets\show-current-location.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\show-home.png">
+      <PackagePath>Assets\show-home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\show-next-favorite.png">
+      <PackagePath>Assets\show-next-favorite.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\show-next-favorite2.png">
+      <PackagePath>Assets\show-next-favorite2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\show-work.png">
+      <PackagePath>Assets\show-work.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\WP8map_tile_icon300x300-02.png">
+      <PackagePath>Assets\WP8map_tile_icon300x300-02.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\WP8map_tile_icon99x99.png">
+      <PackagePath>Assets\WP8map_tile_icon99x99.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\ApplicationBackgroundImage.jpg">
+      <PackagePath>Assets\ApplicationBackgroundImage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\Assets\SplashScreen.scale-240.jpg">
+      <PackagePath>Assets\SplashScreen.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\bin\ARM\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\bin\ARM\Release\AboutPage.xbf">
+      <PackagePath>AboutPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\bin\ARM\Release\ActivateSensorCore\ActivateSensorCore.xbf">
+      <PackagePath>ActivateSensorCore\ActivateSensorCore.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\bin\ARM\Release\Activities.xbf">
+      <PackagePath>Activities.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\bin\ARM\Release\InfoFb.xbf">
+      <PackagePath>InfoFb.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\bin\ARM\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\bin\ARM\Release\MapPage.xbf">
+      <PackagePath>MapPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\bin\ARM\Release\PivotPage.xbf">
+      <PackagePath>PivotPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\bin\ARM\Release\Hikeathon.xr.xml">
+      <PackagePath>Hikeathon.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan\Documents\Visual Studio 2015\Projects\Hikeathon\Hikeathon\bin\ARM\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Phone</Name>
+      <Version>12.0.30113.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Phone, MinVersion = 12.0.30113.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.12.00.Phone.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Phone</Name>
+      <Version>12.0.30113.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Phone, MinVersion = 12.0.30113.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.12.00.Phone.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

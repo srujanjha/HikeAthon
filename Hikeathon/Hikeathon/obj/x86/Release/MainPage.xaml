@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="Hikeathon.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Hikeathon"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Background>
+        <ImageBrush Stretch="Fill" ImageSource="Assets/SplashScreen.jpg"/>
+    </Page.Background>
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+        <TextBlock Text="HikeAthon" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+        
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <ScrollViewer>
+                <StackPanel x:Name="Login">
+                <TextBlock Text="The following are the APIs used in this app. The list is not exhaustive. With time, it can be increased." TextWrapping="Wrap" FontSize="18"/>
+                <Button x:ConnectionId='1' Content="Facebook API"                         HorizontalAlignment="Stretch"/>
+                <Button x:ConnectionId='2' Content="Activities Explorer"                                 HorizontalAlignment="Stretch"/>
+                <Button x:ConnectionId='3' Content="Places Explorer"                             HorizontalAlignment="Stretch"/>
+                <Button x:ConnectionId='4' Content="Battery Status"                              HorizontalAlignment="Stretch"/>
+                    <TextBlock Visibility="Collapsed" Name="Battery" TextWrapping="Wrap" FontSize="16"/>
+                 <Button x:ConnectionId='5' Content="Network Status"                              HorizontalAlignment="Stretch"/>
+                   <TextBlock Visibility="Collapsed" Name="Notify" TextWrapping="Wrap" FontSize="16"/>
+                    <TextBlock  Text="App Developed By: Srujan Jha" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <StackPanel Orientation="Horizontal">
+                                    <AppBarButton x:ConnectionId='6' Icon="Mail"              Tag="11"/>
+                                    <AppBarButton x:ConnectionId='7' Icon="Message"              Tag="12"/>
+                                    <AppBarButton x:ConnectionId='8'              Tag="13">
+                                        <AppBarButton.Icon>
+                                            <FontIcon Glyph="f" FontSize="22" FontWeight="ExtraBlack"/>
+                                        </AppBarButton.Icon>
+                                    </AppBarButton>
+              </StackPanel>
+            </StackPanel>
+                </ScrollViewer>
+        </Grid>
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar Opacity="0.5">
+            <AppBarButton x:ConnectionId='9' x:Uid="About" Label="about" Icon="Caption"                          />
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
+
